@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CFG Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+        <button id="dark-mode-button" onclick="darkMode()">Dark Mode</button>
+        <header> <h1><u>Louise</u></h1>
+            <h2> About Me </h2>
+            <span id="about-description"> My name is Louise and I am 30 </span>
+        </header>
+        <!--<img src="turtle.jpg" alt="Turtle"></-->
+<div id="skills-list"> 
+    <ul>
+        <li>Team working</li>
+        <li>Leadership</li>
+        <li>Conflict resolution</li>
+        <li>Problem solving</li>
+        <li>Lots of other things</li>
+    </ul>
+</div>
+<div id="All Projects">
+    <h2>My Projects</h2>
+    <div id="Project 1">
+        <h3>Learning Code</h3>
+        <p> Using W3, She Codes and Code First Girls to Learn how to code.</p>
+    </div>
+    <div>
+        <button type="button" onclick="alert('Give me a job!')">Click Me!</button>
+    </div>
+    <div id="Project 2">
+        <h3>Learning Project Management</h3>
+        <p> Googel Coursera</p>
+    </div>
+    <div id="Project 3">
+        <h3>Learning Agile Product Management</h3>
+        <p> Scrum.org</p>
+    </div>
+</div>
+<div>
+    <p>Choose your favourite skill:</p>
+    <form>
+    <input type="radio" id="HTML" name="fav_skill" value="HTML">
+    <label for="HTML">HTML</label>
+    <input type="radio" id="PM" name="fav_skill" value="PM">
+    <label for="PM">Project Management</label>
+    <input type="radio" id="Teamwork" name="fav_skill" value="Teamwork">
+    <label for="Teamwork">Teamwork</label>
+    </form>
+</div>
+<div>
+    <h2>Choose from the datalist below about which skill is my best feature</h2>
+    <p>Obviously this is just an excerise, don't think too hard on it</p>
+    <form action="/action_page.php">
+        <input list="skills" name="skills"> 
+        <datalist id="skills">
+            <option value="Leadership"></option>
+            <option value="Teamwork"></option>
+            <option value="Problem solving"></option>
+            <option value="Coding"></option>
+        </datalist>
+        <input type="submit">
+    </form>
+</div>
+<h2>I changed it from doing input output to just inputt</h2>
+<p>How likely is it that Louise will get a job?</p>
+<form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">0%
+<input type="range" id="a" name="a" value="50">100%
+<br><br> 
+<input type="submit">
+</form>
+<br><br> 
+<div>
+    <textarea name="message" rows="3" cols="15">Learning how to use HTML and make a text area.</textarea>
+</div>
+<br><br> 
+<div>
+    <textarea name="message" style="width:200px; height:200px;">Learning how to use CSS with HTML</textarea>
+</div>
+<br><br> 
+<footer>
+    <h2>Work with me</h2>
+    <p>Phone <a href= "https://codefirstgirls.com/"></a></p>
+</footer>
+<script src="script.js"></script>
+    </body>
+</html>
